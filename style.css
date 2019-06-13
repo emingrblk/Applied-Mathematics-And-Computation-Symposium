@@ -1,0 +1,804 @@
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+	height: 100%;
+	width:100%;
+	text-align: center;
+
+}
+h1{
+    font: 400 26px "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #343534;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-top: 5%;
+}
+
+h2{
+
+    font: 400 60px "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #fff;
+    letter-spacing: 2px;
+    text-align: center;
+}h3 {
+    font: 400 26px "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #343534;
+    letter-spacing: 2px;
+     text-align: center; 
+}
+h4{
+    font: 400 26px "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #343534;
+    letter-spacing: 2px;
+    text-align: center;
+   
+}
+h5{
+		font: 18px "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 24px;
+   color: rgba(207,10,44);
+}
+
+
+p,a{
+		font: 16px "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 24px;
+    color: #717171;
+}
+
+#anasayfa{
+height:100%;
+width:100%;
+background-color:white;
+}
+.homeSlider{
+	width: 100%;
+	height:90%;
+    top: 0;
+    left: 0;
+	z-index:1;
+	background:url("page/indir.jpg");
+ animation:image 20s infinite alternate;
+ -webkit-animation:image 20s infinite alternate;
+ -moz-animation:image 20s infinite alternate;
+}
+@keyframes image{
+	0%{
+		background:url("page/landing.jpg");
+	}
+
+	25%{
+		background:url("page/bayrak.jpg");
+	}
+
+	50%{
+		background:url("page/landing.jpg");
+	}
+
+	75%{
+		background:url("page/bayrak.jpg");
+	}
+
+	100%{
+		background:url("page/landing.jpg");
+	}
+}
+.mainPage{
+	position: absolute;
+	width: 100%;
+
+}
+
+.filterMain{
+
+	height: 90%;
+	background: linear-gradient(#0af, #000);
+	opacity: 0.20;
+	z-index: 0;
+}
+
+
+.logoMain1{
+		padding-right:80%;
+	padding-top: 8%;
+}
+.logoMain1 img {
+	width: 80%;
+    height: 80%;
+
+}
+
+.logoMain2{
+	padding-left: 80%;
+	padding-top: 8%;
+}
+.logoMain2 img {
+	width: 80%;
+    height: 80%;
+
+}
+.textMain{
+	height:90%;
+	text-align: center;
+	padding-top:15%;
+	
+}
+
+.textMainFilter{
+		height: 80%;
+	background: #fff;
+	opacity: 0.25;
+	z-index: 1;
+}
+
+.textMain h2 {
+    font-family: Fondamento, Ubuntu;
+  font-size: 3em;
+    color: orange;
+    text-shadow: 10px 5px 5px black;
+    transition: all 1000ms ease;
+}
+.textMain h2:hover {
+    text-shadow: 15px 5px 5px black;
+   font-size: 4em;
+}
+#anasayfa button {
+	background-color:white;
+	padding: 4px;
+border-radius: 25px;
+}
+
+.music{
+  z-index: 1;
+  position: absolute;
+  padding-top:4%;
+ 
+}
+#about{
+	width:100%;
+	height:80%;
+
+}
+#about p{
+	font-size: 30px;
+	line-height:30px;
+
+}
+#mainCaption{
+	height: auto;
+	
+    min-height: 100%;
+    min-width: 100%;
+    background-image: url(images/2.jpg);
+    position: relative;
+	z-index:1;
+	padding-left:10%;
+	padding-right:10%
+	
+}
+.caption{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 90%;
+	color: black;
+	font-size:20px;
+
+}
+#speaker{
+
+	height:100%;
+	width:100%;
+	
+
+}
+.speaker-list{
+	margin-top:10%;
+	margin-left:10%;
+	height:80%;
+	width: 80%;
+}
+.speaker-list p {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    white-space: nowrap;
+    text-align: center;
+    color: #717171;
+}
+.speaker-list span {
+     font-size: 14px; 
+}
+.speaker-list a {
+	font: 16px "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif; 
+    line-height: 24px; 
+ 
+    color: #55acee;
+    text-decoration: none;
+}
+.buyut{transition: all .1s ease-in-out;}
+.buyut:hover{transform:scale(1.03);}
+
+.singleTalk{
+   
+   position: relative;
+    border:center;
+	float: left;
+	width: 25%;
+	margin-top:5%;
+
+
+}
+.singleTalk img{
+width: 50%;
+height: 50%;
+border: 3px solid rgba(207,10,44);
+border-radius: 30%;
+-webkit-border-radius:30%;
+-moz-border-radius: 30%;
+-webkit-filter: grayscale(100%);
+filter: grayscale(100%);
+  
+}
+
+.singleTalk div:hover img {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+
+#kayit{
+	background-image: url("page/motto.png");
+	 min-height: 100%;
+  min-width: 100%;
+background-color:white;
+  position: relative;
+  top: 0;
+  left: 0;
+ 
+	
+}
+#kayit h3{
+	font-size: 45px;
+	padding-top: 25%;
+	letter-spacing: 9px;
+	word-spacing: 5px;
+}
+#kayit h2{
+    letter-spacing: 5px;
+	word-spacing: 3px;
+	color: #00816a;
+}
+#kayit img{
+    width: 100px;
+    padding-top: 20px;
+
+}
+.kayitLogo{
+	position: relative;
+	float: left;
+	width: 50%;
+	height:100%;
+
+}
+.kayitLogoBody{
+	position: relative;
+	width:100%;
+	height:70%;
+}
+.kayitLogoBody1{
+	position: relative;
+	width:100%;
+	height:30%;
+}
+
+.kayitForm{
+	position: relative;
+	float: right;
+	width: 50%;
+	height:100%;
+	position: auto;
+	
+	
+}
+.kayitForm p{
+	
+
+}
+.container1 {
+    padding-top:25%;
+}
+
+input[type=text]{
+    width: 60%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+
+}
+
+input[type=text]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.registerbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 60%;
+    opacity: 0.9;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+
+#mainSlider{
+
+	width: 100%;
+	height: 100%;
+	background:url('./page/.jpg') center no-repeat;
+	background-size:cover;
+background-color:white;
+  position: relative;
+  top: 0;
+  left: 0;
+	z-index:1;
+}
+.slider{
+	height:100%;
+	width: 100%;
+}
+#zamanSayac{
+	width:100%;
+	height:100%;
+	 text-align: center;
+    background: #00ECB9;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+ #clockdiv{
+   
+	
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+	padding-top: 5%;
+
+
+	
+}
+#clockdiv > div{
+    padding: 10px;
+    border-radius: 3px;
+    background: #00BF96;
+    display: inline-block;
+}
+#clockdiv div > span{
+    padding: 15px;
+    border-radius: 3px;
+    background: #00816A;
+    display: inline-block;
+}
+.smalltext{
+    padding-top: 5px;
+    font-size: 16px;
+}
+
+
+#photo {
+  max-width: 100%;
+  position: relative;
+  max-height:100%;
+  margin: auto;
+  padding-bottom:5%;
+  margin-bottom:5%;
+
+}
+*{box-sizing: border-box}
+
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  width: auto;
+  margin-top:-25%;
+  padding: 2%;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+.next {
+  right:20%;
+  
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.prev{
+	left:20%;
+	  border-radius: 3px 0 0 3px;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+#sponsor{
+
+	height: 100%;
+	width:100%;
+}
+.filterSponsor{
+  height: 100%;
+  width:100%;
+
+}
+.singleSponsor{
+	position: relative;
+    border:center;
+	float: left;
+	width: 25%;
+}
+.singleSponsor img{
+	margin:11%;
+	padding-top:15%;
+	width: 30%;
+	height:30%;
+
+}
+
+
+#ulasim{
+
+	height:100%;
+	width:100%;
+}
+
+
+#ulasimMap {
+	width: 100%;
+	height: 60%;
+}
+#konaklama{
+	width: 100%;
+	height: 31%;
+}
+.col3{
+border: 3px solid rgba(207,10,44);
+border-radius: 5%;
+padding:2%;
+margin:1%;
+width: 31.333%;
+height: 100%;
+float: left;
+}
+.col3 img{
+	width: 60%;
+	height: 60%;
+}
+.col3 p, a {
+    font: 16px "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+#clockdiv > div{
+    padding: 10px;
+    border-radius: 3px;
+    background: #00BF96;
+    display: inline-block;
+}
+#clockdiv div > span{
+    padding: 10px;
+    border-radius: 3px;
+    background: #00816A;
+    display: inline-block;
+}
+.smalltext{
+    padding-top: 5px;
+    font-size: 10px;
+}
+
+
+
+#iletisim{
+	
+	width:100%;
+	height:96%;
+}
+
+.iletisimİmage{
+width: 100%;
+height: 60%;
+}
+.iletisimİmage img{
+	width: 75%;
+	height: 100%;
+}
+.iletisimText{
+	width: 100%;
+	height: 36%;
+}
+.adresBilgisi p{
+	color:#fff;
+	display: inline-block;
+	margin: 5px 0px 0px 5px;
+	font-size: 20px;
+	}
+.adresBilgisi{
+	width: 100%;
+}
+.adresBilgisi img{
+	width: 40px;
+}
+.adresBilgisi_tek {
+	position: relative;
+	float: left;
+	width: 33.33333%;
+	padding-top: 7%;
+	padding-bottom:50px;
+}
+
+.insideFooter1{
+	position: relative;
+	float: right;
+	text-align: right;
+    z-index: 9999999;
+}
+
+.socialMedia{
+	float: right;
+	padding-top: 1.5px;
+}
+
+
+
+.social{
+padding-right: 0px;
+}
+
+.social-icons h3{
+text-align:20px;
+}
+
+ul.social li {
+    display: inline-block;
+    text-align: right;
+}
+ul.social li a {
+display: inline-block;
+width: 50px;
+height: 50px;
+background: url("icon/img-sprite.png") no-repeat 0px 0px;
+transition:0.5s all;
+-webkit-transition:0.5s all;
+-moz-transition:0.5s all;
+-o-transition:0.5s all;
+-ms-transition:0.5s all;
+text-decoration: none;
+}
+
+ul.social li a.facebook {
+    background-position: 0px 0px;
+}
+ul.social li a.facebook:hover {
+    background-position: 0px -50px;
+}
+ul.social li a.twitter {
+    background-position: -50px 0px;
+}
+ul.social li a.twitter:hover {
+    background-position: -50px -50px;
+}
+ul.social li a.googleplus {
+    background-position: -100px 0px;
+}
+ul.social li a.googleplus:hover {
+    background-position: -100px -50px;
+}
+ul.social li a.instagram {
+    background-position: -150px 0px;
+}
+ul.social li a.instagram:hover {
+    background-position: -150px -50px;
+}
+ul.social li a.youtube {
+    background-position: -200px 0px;
+}
+ul.social li a.youtube:hover {
+    background-position: -200px -50px;
+}
+
+
+#arama input[type=text]{
+	background-repeat: no-repeat;
+	background-position: 12px 17px;
+	padding:12px 20px 14px 42px;
+	border-radius: 25px;
+	margin-top:5px;
+	outline: none;
+	width: 160px;
+	transition:all width 0.4s ease-in-out;	
+	-webkit-transition:all 0.4s ease-in-out;
+	-moz-transition:all 0.4s ease-in-out;
+	-o-transition:all 0.4s ease-in-out;
+}
+#arama button {
+	background-color:white;
+	padding: 10px;
+border-radius: 25px;
+}
+
+.mobil-nav {
+	display: none;
+}
+
+#header{
+	width: 100%;
+	height: 65px;
+	position: fixed;
+	background-color: #CF0A2C;
+		z-index: 99999;
+}
+
+
+nav,
+nav ul {
+	width: 100%;
+	display: flex;
+	position:fixed;
+	top:0;
+
+}
+
+nav ul ul {
+
+	display: none;
+	position: absolute;
+	flex-direction: column;
+	width: auto;
+	left: -20px;
+}
+nav ul li:hover > ul {
+	display: flex;
+}
+nav input {
+	display: none;
+}
+nav ul {
+	justify-items: flex-start;
+	list-style: none;
+	margin: 0;
+
+	
+}
+nav ul li {
+	position: relative;
+	margin: 5px 2px;
+}
+nav ul li.suche {
+	margin-left: auto;
+}
+nav a,
+.mobil-nav {
+
+	/*border: 2px solid #09F;*/
+	border-radius:25px;
+	color: #fff;
+	padding: 14px 30px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 12.8px;
+	font-family:Verdana;
+	transition:all 0.4s;	
+	-webkit-transition:all 0.4s;
+	-moz-transition:all 0.4s;
+	-o-transition:all 0.4s;
+}
+.mobil-nav {
+	display: none;
+}
+nav li:hover>a {
+box-shadow: 0 6px 30px 0 black, 0 6px 20px 0 black ;
+	border-radius:25px;
+}
+
+
+#footer{
+
+	background-color: #000;
+	position: absolute;
+	width:100%;
+	height: 4%;
+
+
+}
+.insideFooter{
+	position: absolute;
+	float: left;
+	width: 60%
+
+
+
+}
+.insideFooter p{
+	color: #fff;
+	float: left;
+	display: inline-block;
+	font-size: 15px;
+	padding-top:1%;
+	padding-left:2%;
+
+}
+#yukari
+{
+    z-index:100;  
+    position:fixed;   
+    bottom:10px;  
+    right:10px;   
+	
+     
+}
+#yukari_boyut
+{
+    width:30px;    
+    height:30px;  
+}
+

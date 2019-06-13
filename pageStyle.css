@@ -1,0 +1,247 @@
+@media screen and (max-width: 1680px)
+{	
+	nav a, .mobil-nav {
+    padding: 10px 16px;
+     font-size: 13.5px;
+ }
+}
+@media screen and (max-width: 1600px)
+{
+	nav a, .mobil-nav {
+    padding: 10px 11px;
+     font-size: 13.5px;
+}
+.textMain h2 {
+   
+    font-size: 65px;
+}
+#about p{
+
+    font: 20px "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    
+}
+.speaker-list p {
+ 
+    font-size: 15px;
+}
+.speaker-list a {
+    font: 15px "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    
+}
+.col3 p{
+	font:14px "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif
+}
+}
+@media screen and (max-width: 1440px)
+{
+		nav a, .mobil-nav {
+    padding: 10px 5px;
+    font-size:13px;
+}
+h1 {
+	    padding-top: 7%;
+}
+#footer {
+    height: 5%;
+}
+}
+@media screen and (max-width: 1400px)
+{
+		nav a, .mobil-nav {
+    padding: 10px 3px;
+    font-size:13px;
+}
+}
+@media screen and (max-width: 1366px)
+{
+
+	nav a, .mobil-nav {
+    padding: 10px 2px;
+}
+.textMain h2 {
+  
+    font-size: 2.7em;
+}
+input[type=text] {
+    margin: 1px 0 12px 0;
+}
+}
+h1 {
+    padding-top: 6%;
+}
+.speaker-list p {
+ 
+    font-size: 14px;
+}
+.speaker-list a {
+    font: 12px "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    
+}
+#kayit h3{
+	font-size: 30px;
+}
+#kayit h2{
+	font:400 30px "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif
+}
+.kayitForm p {
+}
+
+p, a {
+    font: 14px "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+#ulasimMap {
+	height: 60%;
+}
+#konaklama{
+	height: 28%;
+}
+h4 {
+    padding-top: 0%;
+}
+.col3 p,a {
+    font: 15px "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color:#000;
+}
+
+}
+@media screen and (max-width: 1280px)
+{
+	nav a, .mobil-nav {
+    padding: 10px 5px;
+}
+#kayit h2 {
+	    font: 400 45px "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+}
+@media screen and (max-width: 1024px)
+{
+
+}
+@media screen and (max-width: 1000px) {
+
+#header {
+    background-color:#CF0A2C;
+}
+	.mobil-nav {
+		display: block;
+		margin-left: auto;
+		margin-right: 20px;
+		cursor: pointer;
+
+	}
+	
+	nav {
+		position: fixed;
+	}
+	nav ul {
+		opacity: 0;
+		pointer-events: none;
+		position: absolute;
+		left: 0;
+		flex-wrap: wrap;
+		top: 80%;
+		background-color: #ece4e4;
+		transition: all .2s ease-in-out;
+	}
+	input[type="checkbox"]:checked+label{
+		color: #cf3043;
+	}
+	input[type="checkbox"]:checked+label+ul {
+		opacity: 1;
+		pointer-events: all;
+		top: 100%;
+	}
+	nav ul li {
+		flex: 1 0 100%;
+		display: flex;
+		flex-wrap: wrap;
+		margin: 1px;
+    padding-right: 7px;
+    padding-top: 7px;
+	}
+	nav ul li a {
+		border-bottom: 1px solid #484848;
+		    background-color:#CF0A2C;
+		flex: 1 0 80%;
+
+ background-color: rgba(207,10,44);
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 25px;
+    padding: 1px 2px;
+
+	}
+	nav ul li:last-child a {
+		border-bottom: none;
+	}
+	nav ul ul {
+		border-left: 5px solid #cf3043;
+		padding: 0;
+		display: block;
+		left: 0;
+		flex: 1 0 100%;
+		border-left: 5px solid #d80100;
+		border-bottom: 1px solid;
+		padding: 0;
+	}
+
+
+
+.socialMedia{
+	float: left;
+}
+.logoMain1 {
+    padding-right: 60%;
+    padding-top: 10%;
+}
+.logoMain2 {
+    padding-left: 60%;
+    padding-top: 10%;
+}
+.textMain {
+   padding-top: 35%; 
+}
+.logoMain1 img {
+	width: 60%;
+    height: 60%;
+
+}
+.logoMain2 img {
+	width: 60%;
+    height: 60%;
+
+}
+.speaker-list p {
+ 
+    font-size: 8px;
+}
+.speaker-list a {
+    font: 10px "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    
+}
+#kayit h3 {
+    font-size: 30px;
+    }
+h2 {
+    font: 400 30px "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+   }
+
+.kayitForm p {
+	  font: 12px "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.col3 p {
+    font: 10px "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+h1 {
+    
+    padding-top: 10%;
+}
+h4 {
+    padding-top: 5%;
+}
+#ulasimMap {
+    height: 50%;
+}
+}
